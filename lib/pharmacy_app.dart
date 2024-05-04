@@ -22,6 +22,7 @@ class NetPharmacyApp extends StatelessWidget {
           
         ),
         initialRoute: Routes.SplashScreens,
+        
         onGenerateRoute: appRouter.generateRoute,
         
       ),
