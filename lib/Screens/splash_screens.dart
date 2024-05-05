@@ -9,12 +9,12 @@ class SplashScreens extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
       duration: 3000,
-      splash: Icons.home,
+      splash: 'Assets/images/splash-image.png',
       nextScreen: HomeScreen(),
-       splashTransition: SplashTransition.fadeTransition,
+      // splashTransition: SplashTransition.fadeTransition,
             //pageTransitionType: PageTransitionType.scale,
-            backgroundColor: Colors.blue
-            );
-   
+           // backgroundColor: Color(0xff6149F7)
+);
+            
   }
 }

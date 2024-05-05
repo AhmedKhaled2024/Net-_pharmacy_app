@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:graduation_project_2024/Core/routing/app_router.dart';
 import 'package:graduation_project_2024/Core/routing/routes.dart';
 import 'package:graduation_project_2024/Core/theming/Colors.dart';
+import 'Features/onbording/onbording_screen.dart';
 
 
 class NetPharmacyApp extends StatelessWidget {
@@ -21,7 +22,8 @@ class NetPharmacyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
           
         ),
-        initialRoute: Routes.SplashScreens,
+        initialRoute: Routes.OnBoardingScreen,
+        
         onGenerateRoute: appRouter.generateRoute,
         
       ),
