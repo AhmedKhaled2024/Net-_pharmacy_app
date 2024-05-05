@@ -9,7 +9,7 @@ flutter_native_splash:
   android_12:
    
     
-    image: Assets/images/Frame 3.png
+    image: Assets/images/Frame_4.png
     color: "#9B33FF"
     #background_image_dark_android: "Assets/images/splash-image.png"
     #background_image_ios: "Assets/images/splash-image.png"
