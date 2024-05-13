@@ -23,7 +23,7 @@ class NetPharmacyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
           
         ),
-        initialRoute: Routes.LoginScreen,
+        initialRoute: Routes.loginScreen,
         
         onGenerateRoute: appRouter.generateRoute,
         

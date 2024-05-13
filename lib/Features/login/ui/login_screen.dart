@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:graduation_project_2024/Core/widgets/app_text_button.dart';
+import 'package:graduation_project_2024/Features/login/ui/widgets/email_and_password.dart';
 import '../../../core/helpers/spacing.dart';
 import '../../../core/theming/styles.dart';
 //import '../../../core/widgets/app_text_button.dart';
@@ -32,7 +33,7 @@ class LoginScreen extends StatelessWidget {
                 verticalSpace(36),
                 Column(
                   children: [
-                   // const EmailAndPassword(),
+                    const EmailAndPassword(),
                     verticalSpace(24),
                     Align(
                       alignment: AlignmentDirectional.centerEnd,
@@ -46,7 +47,7 @@ class LoginScreen extends StatelessWidget {
                       buttonText: "Login",
                       textStyle: TextStyles.font16WhiteSemiBold,
                       onPressed: () {
-                     //   validateThenDoLogin(context);
+                        validateThenDoLogin(context);
                       },
                     ),
                     verticalSpace(16),
@@ -63,6 +64,8 @@ class LoginScreen extends StatelessWidget {
       ),
     );
   }
-
   
+  void validateThenDoLogin(BuildContext context) {}
+
+     
 }

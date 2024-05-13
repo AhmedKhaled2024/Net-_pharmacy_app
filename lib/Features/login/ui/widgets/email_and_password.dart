@@ -14,7 +14,7 @@ class EmailAndPassword extends StatefulWidget {
 }
 
 class _EmailAndPasswordState extends State<EmailAndPassword> {
-  @override
+ // @override
   bool isObscureText = true;
 
   bool hasLowercase = false;
@@ -43,6 +43,7 @@ class _EmailAndPasswordState extends State<EmailAndPassword> {
     );
 
   }
+  @override
   Widget build(BuildContext context) {
     return Form(
       key: context.read<LoginCubit>().formKey,
