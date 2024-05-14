@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:graduation_project_2024/Core/widgets/app_text_button.dart';
+import 'package:graduation_project_2024/Features/login/logic/cubit/login_cubit.dart';
 import 'package:graduation_project_2024/Features/login/ui/widgets/email_and_password.dart';
 import '../../../core/helpers/spacing.dart';
 import '../../../core/theming/styles.dart';
@@ -65,7 +67,11 @@ class LoginScreen extends StatelessWidget {
     );
   }
   
-  void validateThenDoLogin(BuildContext context) {}
+  void validateThenDoLogin(BuildContext context) {
+    if (context.read<LoginCubit>().formKey.currentState!.validate()) {
+      context.read<LoginCubit>().emitLoginStates();
+    }
+  }
 
      
 }

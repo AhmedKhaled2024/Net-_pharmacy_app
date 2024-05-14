@@ -9,8 +9,8 @@
 
 // }
 class Routes {
-  static const String onBoardingScreen = '/OnBoardingScreen';
-  static const String loginScreen = '/LoginScreen';
-  static const String signUpScreen = '/SignUpScreen';
-  static const String homeScreen = '/HomeScreen';
+  static const String onBoardingScreen = '/onBoardingScreen';
+  static const String loginScreen = '/loginScreen';
+  static const String signUpScreen = '/signUpScreen';
+  static const String homeScreen = '/homeScreen';
 }
