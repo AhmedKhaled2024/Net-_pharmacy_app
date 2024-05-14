@@ -20,6 +20,6 @@ abstract class ApiService {
 
   @POST(ApiConstants.signup)
   Future<SignupResponse> signup(
-    @Body() SignupRequestBody signupRequestBody,
+    @Body() SignupRequestBody? signupRequestBody,
   );
 }
