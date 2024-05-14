@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SignUpScreen extends StatelessWidget {
-  @override
+//@override
   
-
-
   final _formKey = GlobalKey<FormState>();
   String _email = '';
   String _password = '';
