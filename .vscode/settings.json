@@ -1,0 +1,4 @@
+{
+    "dart.includeDependenciesInWorkspaceSymbols": true,
+    "dart.debugSdkLibraries": false
+}
