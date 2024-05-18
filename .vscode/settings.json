@@ -1,4 +1,5 @@
 {
     "dart.includeDependenciesInWorkspaceSymbols": true,
-    "dart.debugSdkLibraries": false
+    "dart.debugSdkLibraries": false,
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
